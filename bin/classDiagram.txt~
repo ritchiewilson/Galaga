@@ -1,0 +1,14 @@
+
+
+
+
+| Fundies2Game     |
+|------------------|
+| int height       |
+| int width        |
+| Ship ship        |
+| ListofAliens LoA |
+| Missile missile  |
+| score score      |
+|------------------|
+

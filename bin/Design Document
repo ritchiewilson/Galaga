@@ -1,0 +1,19 @@
+Starship Commander README
+
+class Ship contains all methods regarding the movement, drawing, and status of the 
+	player-controlled ship.
+	
+class Alien contains all the methods regarding the singular Alien that are the enemy 
+	of the player
+	
+class ListofAliens uses the methods in class Alien in order to manage and create the list
+	aliens that make up the hordes enemies that the player needs to destroy
+	-this class contains several methods that interact with both the missile and
+		ship classes, which control when aliens are hit by the missile, and when 
+		aliens come into contact with the player
+		
+class Missile manages the only weapon of the player, the bomb. 
+	-The missile interacts with the Ship class in order to track how many frames
+		have passed since the last missile was fired, and allow the next missile to 
+		be fired
+		  	
